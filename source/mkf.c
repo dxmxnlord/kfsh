@@ -14,7 +14,10 @@
 		1. path to the directory:
 			1.1 relative from the current directory (./)
 			1.2 absolute path
-		2. name of the new file
+	options:
+		-u 	permissions(rwx)	reqd
+		-g	permissions(rwx)	reqd
+		-o	permissions(rwx)	reqd
 */
 
 void mkf(char* parsed[],int count){
