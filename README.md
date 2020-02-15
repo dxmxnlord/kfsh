@@ -4,6 +4,17 @@ a minimalist bash-like shell
 ## Overview
 Using the availible GNU C library on linux systems, I made a minimal shell that performs some mundane commands that users execute.
 
+## How to use
+
+You can run and try the shell by following these steps:
+
++ create the shell executable by running ```make shell```
++ execute the executable by running ```./shell ```
+
+Or you can use the shell api in your code:
++ include the `kfsh.h` header file in your code
++ add the targets `kfsh.c source/gdir.c source/genv.c source/prt.c source/mkf.c source/rmf.c source/ldir.c source/sdir.c source/cdir.c source/pfl.c source/mfl.c source/rfl.c source/finf.c` to your gcc command while compiling to a binary
+
 ## Commands
 
 These are the currently supported commands:
